@@ -62,7 +62,7 @@ $(function () {
                 .prop('src', url_s)
                 .prop('width', this.width))
             .prop('href', url_b)
-            //.prop('title', photo.title)
+            .prop('title', this.title)
             .appendTo(gallery);
     });
 });
