@@ -1,80 +1,58 @@
 ﻿<!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Un ricordo di Luigi Liffredo</title>
-        <meta name="viewport" content="width=device-width">
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-        <link rel="stylesheet" href="lib/bootstrap-image-gallery.min.css">
-        <style>
-            body {
-                background: #222;
-                color: #fff;
-            }
-            header {
-                margin-bottom: 30px;
-            }
-            header h1 {
-                font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
-                color: #fff;
-                margin-bottom: 10px;
-            }
-            header a {
-                color: orange;
-            }
-            .modal {
-                color: #333;
-            }
-            .content {
-                margin: 2em;
-            }
-        </style>
-    </head>
-    <body>
-
-    <div class="container-fluid">
-        <header>
-            <h1>Un ricordo di Luigi Liffredo</h1>
-            <blockquote>
-                <p>Addio, Papà.<br>
-                Mi hai lasciato vuoto di te, dei tuoi sorrisi, del tuo humor.<br>
-                Non dovevi andartene, non così presto. Dovevi essere eterno, sempre vicino a me, un modello a cui mirare.<br>
-                E ora sei morto, e non tornerai più.<br>
-                Ti amo, Papà; son contento di avertelo detto, al nostro ultimo incontro, ma è troppo poco.<br>
-                Perché vorrei vederti ancora una volta, e dirti tutto quello che provo per te, dirti che mi mancherai, sentire ancora una volta la tua voce, così razionale e sempre pronta a trovare qualcosa di interessante.<br>
-                <br>
-                Addio, addio, addio.</p>
-                <small>Roberto</small>
-            </blockquote>
-            <p>
-                <button id="start-slideshow" class="btn btn-large btn-success" data-slideshow="5000" data-target="#modal-gallery" data-selector="#gallery a[rel=gallery]">Avvia presentazione</button>
-                <button id="toggle-fullscreen" class="btn btn-large btn-primary" data-toggle="button">Schermo intero</button>
-            </p>
-        </header>
-        <div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery"></div>
-        <br>
-    </div>
-
-    <!-- modal-gallery is the modal dialog used for the image gallery -->
-    <div id="modal-gallery" class="modal modal-gallery hide fade" tabindex="-1">
-        <div class="modal-header">
-            <a class="close" data-dismiss="modal">&times;</a>
-            <h3 class="modal-title"></h3>
-        </div>
-        <div class="modal-body"><div class="modal-image"></div></div>
-        <div class="modal-footer">
-            <a class="btn btn-primary modal-next">Prossimo <i class="icon-arrow-right icon-white"></i></a>
-            <a class="btn btn-info modal-prev"><i class="icon-arrow-left icon-white"></i> Precedente</a>
-            <a class="btn btn-success modal-play modal-slideshow" data-slideshow="5000"><i class="icon-play icon-white"></i> Presentazione</a>
-            <a class="btn modal-download" target="_blank"><i class="icon-download"></i> Scarica</a>
-        </div>
-    </div>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
-    <script src="lib/load-image.min.js"></script>
-    <script src="lib/bootstrap-image-gallery.min.js"></script>
-    <script src="imglist.js"></script>
-    <script src="main.js"></script>
+<head>
+<title>Un ricordo di Luigi Liffredo</title>
+<meta name=viewport content="width=device-width">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel=stylesheet>
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel=stylesheet href="lib/bootstrap-image-gallery.min.css">
+<style>body{background:#222;color:#fff;}
+header{margin-bottom:30px;}
+header h1{font-family:'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;color:#fff;margin-bottom:10px;}
+header a{color:orange;}
+.modal{color:#333;}
+.content{margin:2em;}</style>
+</head>
+<body>
+<div class=container-fluid>
+<header>
+<h1>Un ricordo di Luigi Liffredo</h1>
+<blockquote>
+<p>Addio, Papà.<br>
+Mi hai lasciato vuoto di te, dei tuoi sorrisi, del tuo humor.<br>
+Non dovevi andartene, non così presto. Dovevi essere eterno, sempre vicino a me, un modello a cui mirare.<br>
+E ora sei morto, e non tornerai più.<br>
+Ti amo, Papà; son contento di avertelo detto, al nostro ultimo incontro, ma è troppo poco.<br>
+Perché vorrei vederti ancora una volta, e dirti tutto quello che provo per te, dirti che mi mancherai, sentire ancora una volta la tua voce, così razionale e sempre pronta a trovare qualcosa di interessante.<br>
+<br>
+Addio, addio, addio.</p>
+<small>Roberto</small>
+</blockquote>
+<p>
+<button id=start-slideshow class="btn btn-large btn-success" data-slideshow=5000 data-target="#modal-gallery" data-selector="#gallery a[rel=gallery]">Avvia presentazione</button>
+<button id=toggle-fullscreen class="btn btn-large btn-primary" data-toggle=button>Schermo intero</button>
+</p>
+</header>
+<div id=gallery data-toggle=modal-gallery data-target="#modal-gallery"></div>
+<br>
+</div>
+<div id=modal-gallery class="modal modal-gallery hide fade" tabindex=-1>
+<div class=modal-header>
+<a class=close data-dismiss=modal>&times;</a>
+<h3 class=modal-title></h3>
+</div>
+<div class=modal-body><div class=modal-image></div></div>
+<div class=modal-footer>
+<a class="btn btn-primary modal-next">Prossimo <i class="icon-arrow-right icon-white"></i></a>
+<a class="btn btn-info modal-prev"><i class="icon-arrow-left icon-white"></i> Precedente</a>
+<a class="btn btn-success modal-play modal-slideshow" data-slideshow=5000><i class="icon-play icon-white"></i> Presentazione</a>
+<a class="btn modal-download" target=_blank><i class=icon-download></i> Scarica</a>
+</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+<script src="lib/load-image.min.js"></script>
+<script src="lib/bootstrap-image-gallery.min.js"></script>
+<script src="main.min.js"></script>
 </body>
 </html>

@@ -1,4 +1,3 @@
-var photos =
 [
     {"name": "plotone 001.jpg", "width": 121, "title": "Valle d'Aosta, 1971"},
     {"name": "Bandini LaThuile022.jpg", "width": 57, "title": "Valle d'Aosta, 1971"},
@@ -96,4 +95,4 @@ var photos =
     {"name": "SAM_0967.jpg", "width": 113, "title": "Kraków, 18 maggio 2012"},
     {"name": "SAM_0969.jpg", "width": 113, "title": "Kraków, 18 maggio 2012"},
     {"name": "2012-05-20 12.00.41.jpg", "width": 125, "title": "Balice, 20 maggio 2012"}
-];
+]
