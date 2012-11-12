@@ -6,6 +6,7 @@
     {"name": "P1000487.jpg", "width": 113, "title": "Val Susa, febbraio 2006"},
     {"name": "P1000494.jpg", "width": 113, "title": "Val Susa, febbraio 2006"},
     {"name": "P1000509.jpg", "width": 113, "title": "Val Susa, febbraio 2006"},
+    {"name": "Foto_042306_002.jpg", "width": 100, "title": "Monte S.Giorgio, 23 aprile 2006"},
     {"name": "DSCN2906.jpg", "width": 113, "title": "Kraków, 7 ottobre 2006"},
     {"name": "015-A.jpg", "width": 105, "title": "Kraków, 7 ottobre 2006"},
     {"name": "DSCN2927.jpg", "width": 102, "title": "Kraków, 7 ottobre 2006"},

@@ -53,7 +53,7 @@ $(function () {
     });
 
     // Load images
-    $.getJSON("imglist.min.js", function(photos) {
+    $.getJSON("imglist.js", function(photos) {
         var gallery = $('#gallery');
         $(photos).each(function () {
             var url_s = 'img_s/' + this.name;
