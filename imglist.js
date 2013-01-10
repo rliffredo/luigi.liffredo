@@ -97,6 +97,8 @@
     {"name": "100_3033.jpg", "width": 113, "title": "Kraków, 7 dicembre 2011"},
     {"name": "100_3097.jpg", "width": 113, "title": "Kraków, 8 dicembre 2011"},
     {"name": "IPHONE_J03.jpg", "width": 53, "title": "25 aprile 2012"},
+    {"name": "100_3449.jpg", "width": 113, "title": "Gran Dubbione, 28 aprile 2012"},
+    {"name": "100_3450.jpg", "width": 50, "title": "Gran Dubbione, 28 aprile 2012"},
     {"name": "SAM_0967.jpg", "width": 113, "title": "Kraków, 18 maggio 2012"},
     {"name": "SAM_0969.jpg", "width": 113, "title": "Kraków, 18 maggio 2012"},
     {"name": "2012-05-20 12.00.41.jpg", "width": 125, "title": "Balice, 20 maggio 2012"}
